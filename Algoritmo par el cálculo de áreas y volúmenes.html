@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Evidencia GA2-240201528-AA4-EV01. Algoritmo para el cálculo de áreas y volúmenes</title>
+</head>
+<body>
+	<img src="https://i.pinimg.com/564x/58/6f/2f/586f2fc57df21ba9077033762f6c7d26.jpg">
+	
+<script type="text/javascript">
+
+	///Vamos a calcular el area y el perimetro de un cuadrado
+
+	//Iniciamos definiendo el valor en centimetros de cada lado
+	var ladocuadrado1 = 5;
+	var ladocuadrado2 = 5;
+
+	//Vamos a calcular el resultado del area del cuadrado
+	var resultado = ladocuadrado1 * ladocuadrado2;
+	console.log ("El resultado del área del cuadrado es: " + resultado + " cm²");
+
+	//Vamos a calcular el perimetro del cuadrado
+	var resultado = ladocuadrado1 + ladocuadrado1 + ladocuadrado2 + ladocuadrado2;
+	console.log ("El resultado del perímetro del cuadrado es: " + resultado);
+
+	///Vamos a calcular el area y el perimetro de un rectangulo
+
+	//Iniciamos definiendo el valor de la base y la altura del rectagulo
+	var baseB = 8;
+	var alturaH = 5;
+
+	//Vamos a carcular el resultado del area del rectangulo
+	var resultado = baseB * alturaH;
+	console.log ("El resultado del área del rectángulo es: " + resultado + " cm²");
+
+	//Vamos a calcular el perimetro del rectangulo
+	var resultado = baseB + alturaH + baseB + alturaH;
+	console.log ("El resultado del perímetro del rectángulo es: " + resultado);
+
+	///Vamos a calcular el area y el perimetro de un triangulo
+
+	// Vamos a definir los valores de base y altura del triangulo
+	var baseB = 3;
+	var alturaH = 4;
+
+	//Vamos a calcular el resultado del area del triangulo
+	var resultado = (baseB * alturaH) / 2;
+	console.log ("El resultado del área del triángulo es: " + resultado + " cm²");
+
+	//Vamos a definir los valores de cada lado del triangulo
+	var lado1 = 3;
+	var lado2 = 3;
+	var lado3 = 3;
+
+	//Vamos a calcular el perimetro del triangulo
+	var resultado = lado1 + lado2 + lado3;
+	console.log ("El resultado del perímetro del triángulo es: " + resultado);
+
+	///Vamos a definir el area y el perimetro de un rombo
+
+	//Iniciamos definiendo el valor de la base y la altura del rombo
+	var diagonald = 4;
+	var diagonalD = 8;
+	var ladoRombo = 5;
+
+	//Vamos a carcular el resultado del area del rombo
+	var resultado = (diagonalD * diagonald) / 2;
+	console.log ("El resultado del área del rombo es: " + resultado + " cm²");
+
+	//Vamos a calcular el perimetro del triangulo
+	var resultado = ladoRombo + ladoRombo + ladoRombo + ladoRombo;
+	console.log ("El resultado del perímetro del rombo es: " + resultado);
+
+	///Vamos a calcular el area y el perimetro de un romboide
+
+	//Iniciamos definiendo el valor de la base y la altura del romboide
+	var baseB = 7;
+	var alturaH = 5;
+
+	//Vamos a carcular el resultado del area del romboide
+	var resultado = baseB * alturaH;
+	console.log ("El resultado del área del romboide es: " + resultado + " cm²");
+
+	//Vamos a calcular el perimetro del romboide
+	var resultado = baseB + baseB + alturaH + alturaH;
+	console.log ("El resultado del perímetro del romboide es: " + resultado);
+
+	///Vamos a calcular el area y el perimetro de un trapecio
+
+	//Iniciamos definiendo el valor de las bases menor y mayor, la altura y los dados del trapecio
+	var basemenorb = 6;
+	var baseMayorB = 8;
+	var alturah = 4;
+	var lado1 = 5;
+	var lado2 = 5;
+
+	//Vamos a carcular el resultado del area del trapecio
+	var resultado = ((baseMayorB + basemenorb) / 2) * alturah;
+	console.log ("El resultado del área del trapecio es: " + resultado + " cm²");
+
+	//Vamos a calcular el perimetro del trapecio
+	var resultado = baseMayorB + basemenorb + lado1 + lado2;
+	console.log ("El resultado del perímetro del trapecio es: " + resultado);
+
+	///Vamos a calcular el area y el perimetro de un circulo
+
+	//Iniciamos definiendo el valor de π, radio y diametro del circulo.
+	var pi = 3.141592;
+	var radio = 3;
+	var diametro = 6;
+
+	//Vamos a carcular el resultado del area del circulo
+	var resultado = pi * (radio* radio);
+	console.log ("El resultado del área del círculo es: " + resultado + " cm²");
+
+	//Vamos a calcular el perimetro del circulo
+	var resultado = 2 * pi * radio;
+	console.log ("El resultado del perímetro del círculo es: " + resultado);
+
+	///Vamos a calcular el perimetro y el area de un poligono
+
+	//Iniciamos definiendo el valor de lado, apotema y variable del perímetro del poligono
+	var lado = 4;
+	var apotema = 4;
+	var perimetropoligono = 5 * lado;
+
+	//Vamos a carcular el resultado del area del poligono
+	var resultado = (perimetropoligono * apotema) / 2;
+	console.log ("El resultado del área del polígono es: " + resultado + " cm²");
+
+	//Vamos a carcular el resultado del perimetro del poligono
+	var resultado = perimetropoligono;
+	console.log ("El resultado del perímetro del poligono es: " + resultado);
+
+	///Vamos a calcular el area y el volumen un cubo
+
+	//Iniciamos definiendo el valor del lado de un cubo
+	var lado = 5;
+
+	//Vamos a calcular el resultado del area del cubo
+	var resultado = 6 * (lado * lado);
+	console.log ("El resultado del área del cubo es: " + resultado + " cm²");
+
+	//Vamos a calcular el resultado del volumen del cubo
+	var resultado = lado * lado * lado;
+	console.log ("El resultado del volumen del cubo es: " + resultado + " cm³");
+
+	///Vamos a calcular el area y volumen de un cilindro
+
+	//Iniciamos definiendo el valor de pi, radio y altura del cilindro
+	var pi = 3.141592;
+	var radio = 3;
+	var alturah = 7;
+
+	//Vamos a calcular el resultado del area del cilindro
+	var resultado = 2 * (pi * radio) * (radio + alturah);
+	console.log ("El resultado del área del cilindro es: " + resultado + " cm²");
+
+	//Vamos a calcular el resultado del volumen del cilindro
+	var resultado = pi * (radio * radio) * alturah;
+	console.log ("El resultado del volumen del cilindro es: " + resultado + " cm³");
+
+	///Vamos a calcular el area y volumen de un cono
+
+	//Iniciamos definiendo el valor de pi, radio, altura y generatriz del cono
+	var pi = 3.141592;
+	var radio = 3;
+	var alturah = 4;
+	var generatrizG = 5;
+
+	//Vamos a calcular el resultado del area del cono
+	var resultado = pi * radio * (radio + generatrizG);
+	console.log ("El resultado del área del cono es: " + resultado + " cm²");
+
+	//Vamos a calcular el resultado del volumen del cono
+	var resultado = (1 / 3) * pi * (radio * radio) * alturah;
+	console.log ("El resultado del volumen del cono es: " + resultado + " cm³");
+
+	///Vamos a calcular el area y volumen de una esfera
+
+	//Iniciamos definiendo el valor del radio de una esfera
+	var pi = 3.141592;
+	var radio = 3;
+
+	//Vamos a calcular el resultado del area de la esfera
+	var resultado = 4 * pi * (radio * radio);
+	console.log ("El resultado del área de la esfera es: " + resultado + " cm²");
+
+	//Vamos a calcular el resultado del volumen de la esfera
+	var resultado = (4 / 3) * pi * (radio * radio * radio);
+	console.log ("El resultado del volumen de la esfera es: " + resultado + " cm³");
+
+</script>
+</body>
+</html>
